@@ -29,6 +29,6 @@ class Condition
   end
 
   def humidity
-    @response["current_observation"]["relative_humidity"]
+    @response["current_observation"]["relative_humidity"] +" humidity"
   end
 end

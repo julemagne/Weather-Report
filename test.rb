@@ -3,12 +3,19 @@ require 'minitest/pride'
 require 'httparty'
 require 'json'
 require './condition'
-
+require './forecast'
 
 class Condition
   private def get_response
-      file=File.read('27703.json')
-      JSON.parse(file)
+    file=File.read('27703.json')
+    JSON.parse(file)
+  end
+end
+
+class Forecast
+  private def get_response
+    file=File.read('2770310day.json')
+    JSON.parse(file)
   end
 end
 
@@ -31,6 +38,12 @@ class ConditionTest < Minitest::Test
   end
 
   def test_humidity
-    assert_equal "72%", Condition.new('27703').humidity
+    assert_equal "72% humidity", Condition.new('27703').humidity
+  end
+
+  def test_10_day
+    mon = Forecast.new('27703')
+    mon.tenday
+    assert_equal "Monday:", mon.tenday.split[0]
   end
 end

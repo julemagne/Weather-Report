@@ -2,6 +2,8 @@ require 'httparty'
 require 'json'
 require './condition'
 require './forecast'
+require './sunrise'
+require './alert'
 
 puts "Where would you like to find the weather? Enter zip code: "
 zipcode = gets.chomp
@@ -17,5 +19,9 @@ puts "Your 10 day forecast: "
 my_forecast=Forecast.new(zipcode)
 puts my_forecast.tenday
 my_sunrise=Sunrise.new(zipcode)
+puts "Your sunrise: "
 puts my_sunrise.sunrise
+puts "Your sunset: "
 puts my_sunrise.sunset
+my_alert=Alert.new(zipcode)
+puts my_alert.alert

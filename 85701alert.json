@@ -1,0 +1,186 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "alerts": 1
+  }
+	}
+		,"query_zone": "504",
+	"alerts": [
+		{
+		"type": "FLO",
+		"description": "Flash Flood Warning",
+		"date": "2:26 PM MST on September 21, 2015",
+		"date_epoch": "1442867160",
+		"expires": "3:15 PM MST on September 21, 2015",
+		"expires_epoch": "1442873700",
+		"tz_short":"MDT",
+		"tz_long":"America/Denver",
+		"message": "\u000A...The Flash Flood Warning remains in effect until 430 PM MST for\u000Aeastern Pima County...\u000A\u000AAt 221 PM MST...Doppler radar and automated rain gauges indicated \u000Athat moderate to locally heavy rain was falling in the Catalina and \u000ARincon areas as well as Redington pass and Tanque Verde. Over 3 \u000Ainches have fallen in some locations.\u000A\u000AThis includes the following streams and drainages...Tanque Verde \u000Awash...Rincon creek...Agua Caliente wash...Turkey Creek...Buehman \u000ACanyon...Deer Creek...Bear Creek...Paige creek and Chimney Rock \u000Acreek.\u000A\u000APrecautionary/preparedness actions...\u000A\u000AExcessive runoff from heavy rainfall will cause flooding of washes \u000Aand streams...roads...as well as other drainage areas and low lying \u000Aspots.\u000A\u000AFlooding is occurring or is imminent. It is important to know where \u000Ayou are relative to streams...rivers...or washes which can become \u000Akillers in heavy rains. Campers and hikers should avoid washes... \u000Astreams or canyons.\u000A\u000A\u000ALat...Lon 3240 11047 3213 11049 3220 11064 3238 11073\u000A\u000A\u000AMeyer\u000A\u000A\u000A\u000A1210 PM MST Mon Sep 21 2015\u000A\u000AThe National Weather Service in Tucson has issued a\u000A\u000A* Flash Flood Warning for...\u000A north central Santa Cruz County in southeastern Arizona...\u000A southeastern Pima County in southeastern Arizona...\u000A\u000A* until 315 PM MST\u000A\u000A* at 1209 PM MST...Doppler radar and automated rain gauges indicated \u000A heavy rain falling over Madera Canyon and Florida Canyon in the \u000A Santa Rita Mountains. The rain will continue. Up to two inches of \u000A rain have already fallen. Flash flooding is expected to begin \u000A shortly.\u000A\u000A* Some locations that will experience flooding include...\u000A Madera Canyon and western Sonoita. \u000A\u000AThis includes the following streams and drainages...Josephine \u000ACanyon...Box Canyon Wash...Gardner Canyon and Sonoita creek.\u000A\u000APrecautionary/preparedness actions...\u000A\u000AExcessive runoff from heavy rainfall will cause flooding of washes\u000Aand streams...roads...as well as other drainage areas and low lying\u000Aspots.\u000A\u000AFlooding is occurring or is imminent. It is important to know where \u000Ayou are relative to streams...rivers...or washes which can become \u000Akillers in heavy rains. Campers and hikers should avoid washes... \u000Astreams or canyons.\u000A\u000A\u000ALat...Lon 3178 11073 3165 11072 3165 11098 3180 11096\u000A\u000A\u000AMeyer\u000A\u000A\u000A",
+		"phenomena": "FF",
+		"significance": "W",
+		"ZONES": [
+		{
+		"state":"AZ",
+		"ZONE":"501"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"502"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"503"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"504"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"507"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"513"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"514"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"515"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"401"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"402"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"404"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"405"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"406"
+		}
+		],
+		"StormBased": {
+		}
+		}
+		,
+		{
+		"type": "WAT",
+		"description": "Areal Flood Advisory, Flash Flood Watch",
+		"date": "1:38 PM MST on September 21, 2015",
+		"date_epoch": "1442864280",
+		"expires": "5:00 PM MST on September 22, 2015",
+		"expires_epoch": "1442966400",
+		"tz_short":"MDT",
+		"tz_long":"America/Denver",
+		"message": "\u000AThe National Weather Service in Tucson has issued a\u000A\u000A* Urban and Small Stream Flood Advisory for poor drainage areas\u000A for...\u000A northeastern Pima County in southeastern Arizona...\u000A\u000A* until 330 PM MST\u000A\u000A* at 133 PM MST...Doppler radar and automated rain gauges indicated \u000A between 0.50 and 1.25 inches of widespread rainfall has occurred \u000A across the Tucson Metro area.Although this rain has occurred over \u000A several hours...significant ponding of water in roadway dips and \u000A other low lying areas is expected. Minor flooding of small washes \u000A is likely. \u000A\u000APrecautionary/preparedness actions...\u000A\u000AExcessive runoff from heavy rainfall will cause ponding of water in\u000Aurban areas...highways...streets and underpasses as well as other\u000Apoor drainage areas and low lying spots. Expect heavy flow in\u000Anormally dry washes. Do not attempt to travel across flooded roads.\u000A\u000A\u000ALat...Lon 3249 11078 3219 11065 3195 11061 3194 11121\u000A 3248 11133\u000A\u000A\u000A\u000A\u000A1233 PM MST Mon Sep 21 2015\u000A\u000AThe National Weather Service in Tucson has issued a\u000A\u000A* Urban and Small Stream Flood Advisory for...\u000A southeastern Pinal County in southeastern Arizona...\u000A northeastern Pima County in southeastern Arizona...\u000A\u000A* until 430 PM MST\u000A\u000A* at 1229 PM MST...Doppler radar and automated gauges indicated 1 to \u000A 1.5 inches of rain in the Catalina mountains including Summerhaven \u000A and Mt Lemmon. This will cause small stream flooding in areas \u000A around the Catalina mountains including Sabino Canyon and some \u000A foothills locations.\u000A\u000A* Some locations that will experience flooding include...\u000A Mount Lemmon/Summerhaven...Seven Falls...Sabino Canyon...Catalina\u000A Foothills and Catalina.\u000A\u000APrecautionary/preparedness actions...\u000A\u000AExcessive runoff from heavy rainfall will cause flooding of washes \u000Aand streams...as well as some roads. Do not attempt to travel across \u000Aflooded roads. Find alternate routes.\u000A\u000A\u000ALat...Lon 3254 11054 3238 11048 3229 11093 3251 11088\u000A\u000A\u000AMeyer\u000A\u000A\u000A240 am MST Mon Sep 21 2015\u000A\u000A...Flash Flood Watch remains in effect through Tuesday\u000Aafternoon...\u000A\u000AThe Flash Flood Watch continues for\u000A\u000A* a portion of Southeast Arizona...including the following \u000A Baboquivari Mountains...Catalina ...and Rincon Mountains... \u000A Dragoon and mule and huachuca and Santa Rita Mountains... \u000A galiuro and Pinaleno Mountains...south central Pinal County... \u000A southeast Pinal County...tohono o\u0027odham nation...Tucson Metro \u000A area...upper Gila River valley...upper San Pedro River \u000A Valley...upper Santa Cruz River Valley/Altar Valley...western \u000A Pima County and White Mountains of Graham and Greenlee \u000A counties. \u000A\u000A* Through Tuesday afternoon\u000A\u000A* deep moisture will move across Southeast Arizona into Tuesday\u000A ahead of a low pressure system west of the area. Rainfall will\u000A increase especially from the Tucson Metro southward to the\u000A international border this morning. The coverage and intensity of\u000A rainfall will then spread northward later today. Scattered\u000A showers and thunderstorms will continue late tonight into\u000A Tuesday. Storm total rainfall amounts are expected to range\u000A between 1 and 2 inches in lower elevations...with amounts in\u000A excess of 3 inches possible in some mountain locations.\u000A\u000A* Several features aloft in combination with ample moisture are\u000A expected to produce heavier rainfall amounts compared to the\u000A rainfall that occurred from moisture associated with tropical\u000A system Linda earlier this month. Please keep this excessive\u000A rainfall and flood potential threat in mind.\u000A\u000APrecautionary/preparedness actions...\u000A\u000AA Flash Flood Watch means that conditions are becoming favorable\u000Afor widespread flash flooding to develop. Monitor forecasts\u000Aclosely and be ready to take quick action if flash flood warnings\u000Aare issued.\u000A\u000ABe especially cautious at night when it is harder to recognize\u000Athe dangers of flash floods. If flash flooding is observed...act\u000Aquickly. Turn around and take another Route.\u000A\u000AListen to NOAA Weather Radio...commercial radio or television\u000Astations...or your cable television provider for updates on this\u000Aflash flood threat.\u000A\u000A\u000A\u000A\u000A\u000A",
+		"phenomena": "FF",
+		"significance": "A",
+		"ZONES": [
+		{
+		"state":"AZ",
+		"ZONE":"501"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"502"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"503"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"504"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"505"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"506"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"507"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"509"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"511"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"513"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"515"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"506"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"511"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"510"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"514"
+		}
+		],
+		"StormBased": {
+		}
+		}
+	]
+}

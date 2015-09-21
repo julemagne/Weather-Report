@@ -5,6 +5,7 @@ require 'json'
 require './condition'
 require './forecast'
 require './sunrise'
+require './alert'
 
 class Condition
   private def get_response
@@ -24,6 +25,13 @@ class Sunrise
   private def get_response
     file=File.read('27703sunrise.json')
     JSON.parse(file)
+  end
+end
+
+class Alert
+  private def get_response
+   file=File.read('85701alert.json')
+   JSON.parse(file)
   end
 end
 
@@ -60,5 +68,9 @@ class ConditionTest < Minitest::Test
 
   def test_sunset
     assert_equal "19:14", Sunrise.new('27703').sunset
+  end
+
+  def test_alert
+    assert_equal "", Alert.new('85701').alert
   end
 end

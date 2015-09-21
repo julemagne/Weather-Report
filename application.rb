@@ -16,3 +16,6 @@ puts my_weather.humidity
 puts "Your 10 day forecast: "
 my_forecast=Forecast.new(zipcode)
 puts my_forecast.tenday
+my_sunrise=Sunrise.new(zipcode)
+puts my_sunrise.sunrise
+puts my_sunrise.sunset

@@ -4,6 +4,7 @@ require 'httparty'
 require 'json'
 require './condition'
 require './forecast'
+require './sunrise'
 
 class Condition
   private def get_response
@@ -15,6 +16,13 @@ end
 class Forecast
   private def get_response
     file=File.read('2770310day.json')
+    JSON.parse(file)
+  end
+end
+
+class Sunrise
+  private def get_response
+    file=File.read('27703sunrise.json')
     JSON.parse(file)
   end
 end
@@ -43,7 +51,14 @@ class ConditionTest < Minitest::Test
 
   def test_10_day
     mon = Forecast.new('27703')
-    mon.tenday
     assert_equal "Monday:", mon.tenday.split[0]
+  end
+
+  def test_sunrise
+    assert_equal "7:02", Sunrise.new('27703').sunrise
+  end
+
+  def test_sunset
+    assert_equal "19:14", Sunrise.new('27703').sunset
   end
 end

@@ -2,7 +2,6 @@ require 'httparty'
 require 'byebug'
 
 class Forecast
-  attr_reader :arr
   def initialize(zipcode)
     @zipcode = zipcode
     @response = get_response

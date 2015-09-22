@@ -27,4 +27,5 @@ puts my_sunrise.sunset
 my_alert=Alert.new(zipcode)
 puts my_alert.alert
 my_hurricane=Hurricane.new
+puts "Hurricanes of the world: "
 puts my_hurricane.hurricane

@@ -22,8 +22,4 @@ class Forecast
     HTTParty.get("http://api.wunderground.com/api/#{key}/forecast10day/q/#{@zipcode}.json")
   end
 
-
-
-
-
 end

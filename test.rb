@@ -36,6 +36,13 @@ class Alert
   end
 end
 
+class Hurricane
+  private def get_response
+    file=File.read('hurricane.json')
+    JSON.parse(file)
+  end
+end
+
 class ConditionTest < Minitest::Test
 
   def test_display_location

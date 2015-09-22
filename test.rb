@@ -72,10 +72,10 @@ class ConditionTest < Minitest::Test
   end
 
   def test_alert
-    assert_equal "", Alert.new('85701').alert
+    assert_equal "Alerts", Alert.new('85701').alert.split[0]
   end
 
   def test_hurricane
-    assert_equal "", Hurricane.new.hurricane
+    assert_equal "Tropical", Hurricane.new.hurricane.split[0]
   end
 end

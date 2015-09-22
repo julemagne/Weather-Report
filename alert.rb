@@ -14,8 +14,15 @@ class Alert
 
   def alert
     if @response["alerts"]!=[]
-      "Alerts in your area: "
-      @response["alerts"].each {|alerts| alerts["description"]}
+      x=0
+      output=""
+      output << "Alerts in your area: "
+      @response["alerts"].each do
+         output << @response["alerts"][x]["description"]
+         output << @response["alerts"][x]["message"]
+         x+=1
+       end
+       output
     else
       "There are no alerts in your area."
     end

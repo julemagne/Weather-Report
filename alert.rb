@@ -24,7 +24,7 @@ class Alert
        end
        output
     else
-      "There are no alerts in your area."
+      "\nThere are no alerts in your area.\n\n"
     end
   end
 

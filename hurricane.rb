@@ -17,11 +17,11 @@ class Hurricane
     @response["currenthurricane"].each do
      output << @response["currenthurricane"][x]["stormInfo"]["stormName_Nice"]
      output << "\n"
-     output << " Latitude: \n"
+     output << "Latitude: \n"
      output << @response["currenthurricane"][x]["Current"]["lat"].to_s
-     output << "\n Longitude: \n"
+     output << "\nLongitude: \n"
      output << @response["currenthurricane"][x]["Current"]["lon"].to_s
-     output << "\n Wind Speed:\n"
+     output << "\nWind Speed:\n"
      output << @response["currenthurricane"][x]["Current"]["WindSpeed"]["Mph"].to_s
      output << "MPH\n\n"
      x+=1

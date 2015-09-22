@@ -4,6 +4,7 @@ require './condition'
 require './forecast'
 require './sunrise'
 require './alert'
+require './hurricane'
 
 puts "Where would you like to find the weather? Enter zip code: "
 zipcode = gets.chomp
@@ -25,3 +26,5 @@ puts "Your sunset: "
 puts my_sunrise.sunset
 my_alert=Alert.new(zipcode)
 puts my_alert.alert
+my_hurricane=Hurricane.new
+puts my_hurricane.hurricane

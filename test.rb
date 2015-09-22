@@ -6,6 +6,7 @@ require './condition'
 require './forecast'
 require './sunrise'
 require './alert'
+require './hurricane'
 
 class Condition
   private def get_response
@@ -72,5 +73,9 @@ class ConditionTest < Minitest::Test
 
   def test_alert
     assert_equal "", Alert.new('85701').alert
+  end
+
+  def test_hurricane
+    assert_equal "", Hurricane.new.hurricane
   end
 end
